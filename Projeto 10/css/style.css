@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(34, 33, 33);
+    color: white
+}
+
+.title-video {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.msg-voltar {
+    color: red;
+}

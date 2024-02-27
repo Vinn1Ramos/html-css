@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos 
+    diferentes ou simplesmente aumente e diminua o tamanho do seu nagevador</p>
+        <hr>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagem flexíxel">
+    </picture>
+    <hr>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="midia/rap.mp3" controls autoplay></audio>-->
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/einerd.mp3" type="audio/mpeg">
+        <source src="midia/einerd.mp3" type="audio.ogg">
+        <source src="midia/einerd.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/einerd.mp3">Clique Aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <hr>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="500" poster="img/duzz.jpg" controls autoplay loop>
+        <source src="midia/reagindo.mp4" type="video/mp4">
+        <source src="midia/reagindo.m4v" type="video/m4v">
+        <source src="midia/reagindo.ogv" type="video/ogv">
+        <source src="midia/reagindo.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="546" height="480" src="https://www.youtube.com/embed/3mC_j41LSX0" title="Jogadas de 500qi Que Parecem Mentira..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--<video src="midia/reagindo.mp4" width="500" controls></video>-->
+    <!--<video src="midia/reagindo.m4v" width="500" controls></video>-->
+    <!--<video src="midia/reagindo.ogv" width="500" controls></video>-->
+    <!--<video src="midia/reagindo.webm" width="500" controls></video>-->
+</body>                                                                           
+</html>
