@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Gotica';
+    src: url(fonts/IcelandWinterstorm_PERSONAL_USE_ONLY.otf) format('opentype');
+    font-weight: 100;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+h1 {
+    display: block;
+    color: red;
+    text-align: center;
+    font-family: 'Gotica';
+    font-size: 5em;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin: auto;
+}
+
+div.videos {
+    text-align: center;
+    border-radius: 4px;
+    margin: 0;
+}
+
+div a.video1 {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;    
+}
+
+div.videos > a:hover img {
+    transform: scale(1.2);
+    filter: none;
+}
+
+div.videos:hover > a:not(:hover) img {
+    filter: blur(6px);
+}
+
+a.video1:hover img {
+    image-resolution: 30px;
+    transition-duration: .5s;
+    transform: scale(1.2);      
+}
+
+a.video2:hover img {
+    image-resolution: 30px;
+    transition-duration: .5s;
+    transform: scale(1.2);      
+}
+
+a.video3:hover img {
+    image-resolution: 30px;
+    transition-duration: .5s;
+    transform: scale(1.2);      
+}
+
+a.video4:hover img {
+    image-resolution: 30px;
+    transition-duration: .5s;
+    transform: scale(1.2);      
+}
+
+div.button {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+div.button:hover {
+    image-resolution: 30px;
+    transition-duration: .5s;
+    transform: scale(1.2);
+}
+
+div p.msg-voltar {
+    color: white;
+    text-decoration: ;
+    padding: 10px 0px 10px 0px;
+}
+
+div.loboguara {
+    text-align: center;
+}
+
+.movie {
+    text-align: center;
+}
